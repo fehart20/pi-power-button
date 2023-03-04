@@ -14,7 +14,7 @@
 case "$1" in
   start)
     echo "Starting listen-for-shutdown.py"
-    /usr/local/bin/listen-for-shutdown.py &
+    python3 /usr/local/bin/listen-for-shutdown.py &
     ;;
   stop)
     echo "Stopping listen-for-shutdown.py"
